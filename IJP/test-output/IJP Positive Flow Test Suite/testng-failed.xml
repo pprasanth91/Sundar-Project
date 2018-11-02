@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IJP Positive Flow Test Suite]">
+  <test thread-count="5" name="Agency Login Type Positive Flow 1(failed)">
+    <classes>
+      <class name="com.test.agency.testNG.ChangePassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="terminatetest"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="launchijp"/>
+          <include name="changepassword"/>
+        </methods>
+      </class> <!-- com.test.agency.testNG.ChangePassword -->
+    </classes>
+  </test> <!-- Agency Login Type Positive Flow 1(failed) -->
+  <test thread-count="5" name="Agency Login Type Positive Flow 2 (failed)">
+    <classes>
+      <class name="com.test.agency.testNG.CheckStatus">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="checkstatus"/>
+          <include name="launchijp"/>
+          <include name="terminatetest"/>
+        </methods>
+      </class> <!-- com.test.agency.testNG.CheckStatus -->
+    </classes>
+  </test> <!-- Agency Login Type Positive Flow 2 (failed) -->
+  <test thread-count="5" name="Agency Login Type Positive Flow 3(failed)">
+    <classes>
+      <class name="com.test.agency.testNG.DocumentUpload">
+        <methods>
+          <include name="tearDown"/>
+          <include name="terminatetest"/>
+          <include name="launchijp"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="documentupload"/>
+        </methods>
+      </class> <!-- com.test.agency.testNG.DocumentUpload -->
+    </classes>
+  </test> <!-- Agency Login Type Positive Flow 3(failed) -->
+</suite> <!-- Failed suite [IJP Positive Flow Test Suite] -->

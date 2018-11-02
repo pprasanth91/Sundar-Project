@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "IJP Positive Flow Test Suite">
+   <test name = "Agency Login Type Positive Flow 1">
+      <classes>
+         <class name = "com.test.agency.testNG.ChangePassword" />               
+      </classes>
+   </test> 
+</suite>  
+
+
